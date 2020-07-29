@@ -108,3 +108,7 @@ img {
   }
 }
 
+.flex {
+  display: flex;
+}
+
