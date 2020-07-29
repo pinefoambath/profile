@@ -1,0 +1,110 @@
+body {
+  background-color: #F9F9F9;
+  font-family: 'Open Sans', sans-serif;
+  color: #260F26;
+  font-size: 20px;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  color: #251F47;
+  font-family: roboto;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: 60px;
+  color: lightgrey;
+}
+
+
+a:hover {
+  color: #FF4500
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+#button {
+  background-color: lightgrey ;
+  padding: 5px 15px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+}
+
+#button:hover {
+  color: #FF4500
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 0auto 24px;
+  border: 0;
+  box-shadow: 2px 2px 6px lightgrey;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container {
+  width: 650px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.follow-card {
+  margin-top: 20px
+}
+
+.follow-icon {
+  color: lightgrey;
+  width: 100px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
